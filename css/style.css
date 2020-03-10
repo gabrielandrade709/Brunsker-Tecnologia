@@ -1,0 +1,266 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+
+/* 
+    Created on : 07/11/2018, 14:13:15
+    Author     : Aluno
+*/
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #8C8C8C;
+}
+
+#formBuscar {
+    padding-left: 770px;
+}
+
+.brunSkerLogo {
+    width: 150px;
+}
+
+.navbar {
+    background-color: #404040 !important;
+}
+
+.containerLogin {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.formLogin {
+    width: 300px;
+    height: 300px;
+    padding-top: 60px;
+
+}
+
+.loginSize{
+    width: 400px;
+    height: 400px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+footer{
+    background-color: #404040 !important;
+}
+
+.btn-primary{
+    background-color: #8C8C8C !important;
+}
+
+.icoButton{
+    padding-right: 12px;
+    font-size: 13px;
+}
+
+.containerListagem{
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.listagemSize{
+    background-color: white;
+}
+
+.tituloListagem{
+    width: 100%;
+    color: white;
+}
+
+.titulo{
+    color: rgb(88, 88, 88) !important;
+}
+
+.quadroResposta{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.divListagem{
+    height: 50px;
+    background-color: #8C8C8C;
+}
+
+.borderTable{
+    border-color: #8C8C8C;
+}
+
+.btMaisCad{
+    padding-top: 15px;
+}
+
+.containerCadastro{
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.cadastroSize{
+    background-color: white;
+}
+
+.divCadastro{
+    height: 50px;
+    background-color: #8C8C8C;
+}
+
+.quadroCadastro{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.formCadastro{
+    text-shadow: -2px 2px 4px black;
+}
+
+.iconColor{
+    color: #8C8C8C !important;
+}
+
+.genderIcon{
+    font-size: 30px;
+    padding-right: 5px;
+}
+
+.shadowIcon{
+    text-shadow: -2px 2px 4px black;
+}
+
+.perfilPesquisar{
+    text-align: center;
+}
+
+.emptyUser{
+    text-align: center;
+    color: #404040;
+    font-size: 30px;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-image: linear-gradient(to bottom, #404040, #8C8C8C 200%) !important;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white !important;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+.hamburgerMenu {
+    color: white !important;
+    font-size: 50px;
+    cursor: pointer;
+    padding-left: 15px;
+}
+
+.divHamburger{
+    background-color: #404040;
+}
+
+.logoMobile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -50px;
+    margin-bottom: -50px;
+}
+
+.brunSkerLogoMobile{
+    width: 200px;
+}
+
+.copyrightNavMobile{
+    color: white;
+}
+
+.nomeNavMobile{
+    text-align: center;
+}
+
+.formBuscarMobile{
+    margin-left: 25px;
+}
+
+.inputBuscarMobile{
+    color: white !important;
+}
+
+.divPerfilMobile{
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+}
+
+.placeBuscarMobile:-webkit-input-placeholder {
+    color: white;
+ }
+
+ .placeBuscarMobile:-moz-placeholder {
+    color: white;  
+ }
+ 
+ .placeBuscarMobile:-moz-placeholder {
+    color: white;  
+ }
+ 
+ .placeBuscarMobile:-ms-input-placeholder {  
+    color: white;  
+ }
+
+ .iconSairDesktop{
+    color: #404040;
+ }
+
+ .perfilDesktop{
+    margin-top: 2px;
+    background-color: white;
+ }
+
+ .nomePerfilDesktop{
+     color: #404040 !important;
+ }
+
+ .tituloCadastro{
+    color: white;
+}
